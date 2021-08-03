@@ -1,0 +1,50 @@
+body{
+	background-color: #midnightblue;
+	margin: 0px;
+	padding: 0px;
+}
+
+section{
+	width: 100%;
+	height: 95vh;
+	background-image: url("Images/");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+nav-bar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+
+nav-bar ul {
+	display: flex;
+}
+
+nav-bar ul li{
+
+}
+
+nav-bar ul li a{
+	margin: 30px;
+	font-family: RoadTest;
+	font-size: 15px;
+	font-weight: 700;
+	color: #powderblue;
+}
+
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+}
+
+.text-container p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 22px;
+}
